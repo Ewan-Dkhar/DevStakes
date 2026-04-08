@@ -1,0 +1,29 @@
+{
+  "name": "visual-roadmap-builder",
+  "version": "1.0.0",
+  "description": "Production-ready Node-Based Learning Roadmap Builder",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "reactflow": "^11.10.0",
+    "zustand": "^4.4.0",
+    "framer-motion": "^10.16.0",
+    "tailwindcss": "^3.3.0",
+    "lucide-react": "^0.303.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^4.4.0",
+    "postcss": "^8.4.27",
+    "autoprefixer": "^10.4.14"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  }
+}
